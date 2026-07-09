@@ -9,73 +9,75 @@
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <title>Trilha das Sombras</title>
 </head>
-<body>
-    <main>
+<body><main>
         <div class="passo ativo" id="passo-0">
             <img src="Gemini_Generated_Image_wbeq3vwbeq3vwbeq.png">
-            <p>Você está parado na entrada da Floresta dos Sussurros. Diz a lenda que o amuleto perdido do rei está escondido no centro dela, mas as árvores parecem se mover sozinhas e o sol está começando a se pôr.</p>
-            <button class="btn-proximo" data-proximo="1">Acender uma tocha e entrar na floresta escura seguindo a trilha principal</button>
-            <button class="btn-proximo" data-proximo="2">Subir na colina ao redor da floresta para tentar mapear o caminho de cima antes que escureça totalmente</button>
+            <p>Sua jornada começa nos limites da Floresta dos Sussurros. O painel de missões da guilda diz que o Amuleto de Sangue do antigo rei está escondido no coração da mata, mas as árvores parecem se mover sozinhas e o sol está prestes a se pôr.</p>
+            <button class="btn-proximo" data-proximo="1">Acender uma tocha, sacar sua espada e seguir pela trilha principal (Foco em Sobrevivência)</button>
+            <button class="btn-proximo" data-proximo="2">Subir o penhasco ao redor para realizar um teste de Percepção e mapear a área de cima</button>
         </div>
+        
         <div class="passo" id="passo-1">
-            <p>A luz da sua tocha afasta os olhos brilhantes que te observavam do meio dos arbustos. De repente, você chega a uma bifurcação: de um lado, há uma ponte de corda velha balançando sobre um abismo, do outro, uma caverna escura que parece passar por baixo da terra.</p>
-            <button class="btn-proximo" data-proximo="3">Avançar com cuidado em direção à ponte de corda.</button>
-            <button class="btn-proximo" data-proximo="4">Tentar passar pela caverna</button>
+            <p>O brilho da tocha espanta os Goblins que espreitavam nos arbustos. Mais adiante, seu grupo encontra um dilema de exploração: uma ponte de cordas apodrecida balançando sobre o abismo, ou a entrada de uma masmorra subterrânea que desce para a escuridão.</p>
+            <button class="btn-proximo" data-proximo="3">Fazer um teste de Atletismo e cruzar a ponte de cordas.</button>
+            <button class="btn-proximo" data-proximo="4">Entrar na masmorra subterrânea para investigar o subsolo</button>
         </div>
+        
         <div class="passo" id="passo-2">
-            <p>Lá de cima da colina, você consegue ver uma fumaça azul subindo exatamente no centro da floresta, indicando a localização do amuleto. Porém, ao tentar descer, o chão sob seus pés cede e você escorrega direto para dentro de um ninho de criaturas mágicas adormecidas. Qualquer movimento brusco ou barulho alto pode acordar o bando inteiro, mas você avista uma saída logo atrás deles.</p>
-            <button class="btn-proximo" data-proximo="5">Prender a respiração e tentar passar na ponta dos pés pelo ninho.</button>
-            <button class="btn-proximo" data-proximo="6">Passar correndo entre eles o mais rápido possível</button>
+            <p>Lá de cima, sua rolagem de Percepção é um sucesso! Você avista uma aura mágica azul no centro da floresta. Porém, ao tentar descer, a terra cede. Você cai direto no ninho de Ursos-Coruja adormecidos. Qualquer ruído iniciará um combate mortal, mas a saída está logo atrás das feras.</p>
+            <button class="btn-proximo" data-proximo="5">Fazer um teste de Furtividade para passar na ponta dos pés pelo ninho.</button>
+            <button class="btn-proximo" data-proximo="6">Usar bônus de Velocidade e correr entre eles o mais rápido possível</button>
         </div>
+        
         <div class="passo" id="passo-3">
-            <p>Ao passar pela ponte você encontra um anão mágico que lhe oferece uma poção, porém ele diz que se não bebê-la você não sobreviverá à névoa mágica adiante.</p>
-            <button class="btn-proximo" data-proximo="7">Beber a poção e seguir em frente</button>
+            <p>No meio da ponte, um NPC Alquimista bloqueia o caminho. Ele oferece um item de missão: uma Poção de Resistência a Arcano. O velho avisa que a névoa à frente drena os pontos de vida (HP) de quem não estiver protegido.</p>
+            <button class="btn-proximo" data-proximo="7">Consumir a poção, ganhar o buff de proteção e seguir em frente</button>
         </div>
 
         <div class="passo" id="passo-4">
             <img src="Gemini_Generated_Image_tfvll3tfvll3tfvl.png" alt="voce morre para o dragao">
-            <p>Você entra na caverna, porém havia um dragão acordado dentro do covil. Sem proteção contra o fogo, você não resiste. Fim de jogo!</p>
+            <p>Você invadiu o covil de um Dragão Vermelho Ancião. Sem buffs ou armadura de resistência a fogo, o sopro de chamas da criatura reduz seu HP a zero instantaneamente. Fim de Jogo! (Sua ficha foi destruída).</p>
         </div>
 
         <div class="passo" id="passo-5">
-            <p>Seus passos leves funcionam perfeitamente! Ao sair do ninho, você encontra um antigo santuário de pedra com um pergaminho antigo escondido no altar, apontando que a próxima pista do amuleto está nas Ruínas Ancestrais.</p>
-            <button class="btn-proximo" data-proximo="7">Seguir em direção às Ruínas Ancestrais</button>
+            <p>Sua rolagem de Furtividade foi um Sucesso Crítico! Ao sair do ninho, você encontra um Santuário Abandonado. No altar, há um pergaminho de lore que revela a próxima missão principal nas Ruínas Ancestrais.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir a rota da missão em direção às Ruínas Ancestrais</button>
         </div>
 
         <div class="passo" id="passo-6">
-            <p>As criaturas acordam com o barulho e correm atrás de você! Tentando despistá-las pelas árvores, você acaba caindo em um vale fechado que se mostra um beco sem saída.</p>
-            <button class="btn-proximo" data-proximo="8">Voltar com cuidado e procurar o santuário da colina</button>
+            <p>Falha no teste! Os monstros acordam enfurecidos e iniciam uma perseguição. Tentando despistá-los com manobras evasivas pelas árvores, você entra em um cânion sem saída. O bando cercou você!</p>
+            <button class="btn-proximo" data-proximo="8">Usar uma ação de Esquiva para recuar com cuidado e procurar o Santuário da colina</button>
         </div>
 
         <div class="passo" id="passo-7">
-            <p>Nas Ruínas Ancestrais, o poder mágico no ar fica cada vez mais forte. Avançando pelo labirinto de pedras, você se depara com um rio subterrâneo bifurcado.</p>
-            <button class="btn-proximo" data-proximo="9">Seguir pelo curso do rio à esquerda</button>
-            <button class="btn-proximo" data-proximo="10">Seguir pelo curso do rio à direita</button>
+            <p>Ao adentrar as Ruínas Ancestrais, o medidor de mana do ambiente dispara. Avançando por um labirinto de masmorra, seu mapa indica que a rota se divide nas margens de um rio subterrâneo.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir o fluxo da água pelo túnel da Esquerda (Investigação)</button>
+            <button class="btn-proximo" data-proximo="10">Seguir o fluxo da água pelo túnel da Direita (Exploração)</button>
         </div>
 
         <div class="passo" id="passo-8">
-            <p>Conseguindo despistar os monstros, você finalmente encontra o santuário com o mapa antigo. Agora, o caminho está claro rumo às Ruínas Ancestrais!</p>
-            <button class="btn-proximo" data-proximo="7">Seguir para as Ruínas Ancestrais</button>
+            <p>Usando táticas de recuo, você despista os monstros e encontra o Santuário com o mapa antigo. Agora você tem as coordenadas exatas da masmorra!</p>
+            <button class="btn-proximo" data-proximo="7">Viajar Fast Travel para as Ruínas Ancestrais</button>
         </div>
 
         <div class="passo" id="passo-9">
-            <p>O rio à esquerda leva você a uma gruta escondida atrás de uma cachoeira, revelando inscrições brilhantes que mostram a entrada secreta do templo perdido.</p>
-            <button class="btn-proximo" data-proximo="11">Explorar o templo perdido</button>
+            <p>O túnel da esquerda esconde uma Gruta Secreta atrás de uma cortina de água. As paredes revelam runas antigas que funcionam como a chave para abrir os portões do Templo Perdido.</p>
+            <button class="btn-proximo" data-proximo="11">Iniciar a Raid: Explorar o Templo Perdido</button>
         </div>
 
         <div class="passo" id="passo-10">
-            <p>O rio à direita termina em uma área pantanosa e coberta por uma névoa densa. Apesar das plantas mágicas, não há nenhum sinal do templo ou do amuleto por aqui.</p>
-            <button class="btn-proximo" data-proximo="12">Retornar e tentar o caminho do outro rio</button>
+            <p>O túnel da direita leva a uma zona de Pântano Venenoso coberta por névoa. Embora haja itens de criação (plantas mágicas) no chão, não há nenhuma entrada de dungeon por aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Dar Overworld Backtrack e testar o caminho do outro túnel</button>
         </div>
 
         <div class="passo" id="passo-11">
             <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
-            <p>No coração do templo perdido, você encontra o amuleto real brilhando em um pedestal! Com o artefato em mãos, você salva o reino e protege este lugar sagrado para sempre. Vitória!</p>
+            <p>No altar central da Shaman, o lendário Amuleto de Sangue flutua em um feixe de luz! Você recupera o artefato lendário, completa a Quest Principal e ganha 99.999 XP. Vitória! O reino está salvo!</p>
         </div>
 
         <div class="passo" id="passo-12">
-            <p>Retornando e escolhendo o rio à esquerda, você finalmente alcança a gruta oculta e decifra as inscrições mágicas que abrem as portas do templo perdido.</p>
-            <button class="btn-proximo" data-proximo="11">Explorar o templo perdido</button>
+            <p>Retornando ao cruzamento e escolhendo o túnel da esquerda, você finalmente alcança a Gruta Secreta e decifra as runas mágicas que destrancam os portões de pedra.</p>
+            <button class="btn-proximo" data-proximo="11">Iniciar a Raid: Explorar o Templo Perdido</button>
         </div>
     </main>
     <script src="script.js"></script>
